@@ -77,7 +77,7 @@ const Food_Places_Main = () => {
 
     return (
         <main className='justify-items-center overflow-auto scrollbar-hidden pt-2 flex flex-col gap-[180px] text-white'>
-            <div className='w-full h-full flex flex-col'>
+            <div className='w-full h-full flex flex-col pt-[20px] gap-[100px]'>
                 <div className='flex flex-row items-center justify-center gap-5'>
                     <div className='bg-white h-[50px] w-[50px] flex justify-center items-center rounded-full'>
                         {/* left arrow */}
@@ -92,42 +92,42 @@ const Food_Places_Main = () => {
                         <BsChevronRight onClick={next} size={40} />
                     </div>
                 </div>
-            </div>
-            <div className='flex flex-col gap-[50px] w-full items-center pb-30 '>
-                {/* Main */}
-                <div className='flex flex-col gap-10 bg-blue-900 rounded-lg p-5 w-[1100px] items-center justify-center blocks'>
-                    <div className='flex flex-col items-center w-[1000px] gap-5 blocks'>
-                        <div className='flex flex-row gap-5 blocks'>
-                            <h1 className='text-white text-7xl text-center blocks'>{current.title}</h1>
+                <div className='flex flex-col gap-[50px] w-full items-center pb-30 '>
+                    {/* Main */}
+                    <div className='flex flex-col gap-10 bg-blue-900 rounded-lg p-5 w-[1100px] items-center justify-center blocks'>
+                        <div className='flex flex-col items-center w-[1000px] gap-5 blocks'>
+                            <div className='flex flex-row gap-5 blocks'>
+                                <h1 className='text-white text-7xl text-center blocks'>{current.title}</h1>
+                            </div>
+                            <p className='text-white text-3xl'>{current.description}</p>
                         </div>
-                        <p className='text-white text-3xl'>{current.description}</p>
                     </div>
-                </div>
-                <div className='flex flex-col gap-10 bg-blue-900 rounded-lg w-[1100px] p-5 items-center justify-center blocks'>
-                    <div className='flex flex-col items-center w-[1000px] gap-5 blocks'>
-                        <div className='flex flex-col gap-5 blocks'>
-                            <h1 className='text-white text-7xl text-center blocks'>{current.title2}</h1>
+                    <div className='flex flex-col gap-10 bg-blue-900 rounded-lg w-[1100px] p-5 items-center justify-center blocks'>
+                        <div className='flex flex-col items-center w-[1000px] gap-5 blocks'>
+                            <div className='flex flex-col gap-5 blocks'>
+                                <h1 className='text-white text-7xl text-center blocks'>{current.title2}</h1>
+                            </div>
+                            <ul className='text-white text-3xl list-disc blocks'>
+                                <p className='text-white text-4xl blocks'>{current.description2}</p>
+                                <p className='text-white text-4xl blocks'>{current.description3}</p> <br />
+                                <li>{current.Menu}</li>
+                                <li>{current.Menu2}</li>
+                                <li>{current.Menu3}</li>
+                                <li>{current.Menu4}</li>
+                            </ul>
                         </div>
-                        <ul className='text-white text-3xl list-disc blocks'>
-                        <p className='text-white text-4xl blocks'>{current.description2}</p>
-                        <p className='text-white text-4xl blocks'>{current.description3}</p> <br />
-                            <li>{current.Menu}</li>
-                            <li>{current.Menu2}</li>
-                            <li>{current.Menu3}</li>
-                            <li>{current.Menu4}</li>
-                        </ul>
                     </div>
-                </div>
-                <div className='flex flex-col gap-10 bg-blue-900 rounded-lg p-5 w-[1100px] items-center justify-center blocks'>
-                    <div className='flex flex-col items-center w-[1000px] gap-5 blocks'>
-                        <div className='flex flex-col gap-5 blocks'>
-                            <h1 className='text-white text-7xl text-center blocks'>{current.title3}</h1>
+                    <div className='flex flex-col gap-10 bg-blue-900 rounded-lg p-5 w-[1100px] items-center justify-center blocks'>
+                        <div className='flex flex-col items-center w-[1000px] gap-5 blocks'>
+                            <div className='flex flex-col gap-5 blocks'>
+                                <h1 className='text-white text-7xl text-center blocks'>{current.title3}</h1>
+                            </div>
+                            <ul className='text-white text-3xl list-disc blocks'>
+                                <li>{current.Location}</li>
+                                <li>{current.Location2}</li>
+                                <li>{current.Location3}</li>
+                            </ul>
                         </div>
-                        <ul className='text-white text-3xl list-disc blocks'>
-                            <li>{current.Location}</li>
-                            <li>{current.Location2}</li>
-                            <li>{current.Location3}</li>
-                        </ul>
                     </div>
                 </div>
             </div>

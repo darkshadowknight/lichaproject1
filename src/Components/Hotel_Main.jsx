@@ -91,7 +91,7 @@ const Hotel_Main = () => {
 
   return (
     <main className='justify-items-center overflow-auto scrollbar-hidden pt-2 flex flex-col gap-[180px] text-white'>
-                <div className='w-full h-full flex flex-col'>
+                <div className='w-full h-full flex flex-col pt-[20px] gap-[100px]'>
                     <div className='flex flex-row items-center justify-center gap-5'>
                         <div className='bg-white h-[50px] w-[50px] flex justify-center items-center rounded-full'>
                             {/* left arrow */}
@@ -106,8 +106,7 @@ const Hotel_Main = () => {
                             <BsChevronRight className='text-black' onClick={next} size={40} />
                         </div>
                     </div>
-                </div>
-                <div className='flex flex-col gap-[50px] w-full items-center pb-30 '>
+                    <div className='flex flex-col gap-[50px] w-full items-center pb-30 '>
                     {/* Main */}
                     <div className='flex flex-col gap-10 bg-blue-900 rounded-lg p-5 w-[1100px] items-center justify-center blocks'>
                         <div className='flex flex-col items-center w-[1000px] gap-5 blocks'>
@@ -144,6 +143,7 @@ const Hotel_Main = () => {
                             </ul>
                         </div>
                     </div>
+                </div>
                 </div>
             </main>
   )

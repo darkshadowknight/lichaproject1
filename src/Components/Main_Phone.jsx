@@ -77,7 +77,7 @@ const Main_Phone = () => {
 
   return (
     <main className='justify-items-center overflow-auto scrollbar-hidden pt-2 flex flex-col gap-[180px] w-full text-white'>
-      <div className='justify-items-center  scrollbar-hidden pt-2 flex flex-col gap-20 w-full'>
+      <div className='justify-items-center scrollbar-hidden pt-2 flex flex-col gap-20 w-full'>
         {/* Picture Content */}
         <div className='w-full h-full flex flex-col'>
           <div className='flex flex-col items-center justify-center gap-2'>
@@ -101,7 +101,7 @@ const Main_Phone = () => {
         </div>
         {/* Main Content */}
         <div className='flex flex-col gap-[20px] w-full items-center pb-30'>
-          <div className='flex flex-col gap-10 bg-blue-950 rounded-lg w-full h-[800px] items-center justify-center blocks pl-5'>
+          <div className='flex flex-col gap-10 bg-blue-950 rounded-lg w-full p-5 items-center justify-center blocks pl-5'>
             <div className='flex flex-col gap-2 items-center blocks'>
               <h1 className='text-white text-5xl text-center blocks'><MdMapsHomeWork /></h1>
               <h1 className='text-white text-5xl text-center blocks'>Welcome to Cainta, Rizal</h1>
@@ -109,7 +109,7 @@ const Main_Phone = () => {
             </div>
             
           </div>
-          <div className='flex flex-col gap-10 bg-blue-950 rounded-lg items-center justify-center blocks pl-5'>
+          <div className='flex flex-col gap-10 bg-blue-950 p-5 rounded-lg items-center justify-center blocks pl-5'>
             {/* Overview */}
             <div className='flex flex-col gap-5 blocks'>
               <div className='flex flex-row gap-5 blocks'>
@@ -120,7 +120,7 @@ const Main_Phone = () => {
             </div>
           </div>
           {/* Location */}
-          <div className='flex flex-col gap-10 bg-blue-950 rounded-lgitems-center justify-center blocks pl-5'>
+          <div className='flex flex-col gap-10 bg-blue-950 p-5 rounded-lgitems-center justify-center blocks pl-5'>
             <div className='flex flex-col gap-5 blocks'>
               <div className='flex flex-row gap-5 blocks items-center'>
                 <p className='text-white text-5xl blocks'><CiLocationOn /></p>
@@ -137,7 +137,7 @@ const Main_Phone = () => {
             </div>
           </div>
           {/* Urban Development */}
-          <div className='flex flex-col gap-10 bg-blue-950 rounded-lg items-center justify-center blocks pl-5'>
+          <div className='flex flex-col gap-10 bg-blue-950 p-5 rounded-lg items-center justify-center blocks pl-5'>
             <div className='flex flex-col gap-5 blocks'>
               <div className='flex flex-row gap-5 blocks items-center'>
                 <p className='text-white text-5xl blocks'><FaBuilding /></p>
@@ -155,7 +155,7 @@ const Main_Phone = () => {
             </div>
           </div>
           {/*  History & Culture */}
-          <div className='flex flex-col gap-10 bg-blue-950 rounded-lg items-center justify-center blocks pl-5'>
+          <div className='flex flex-col gap-10 bg-blue-950 p-5 rounded-lg items-center justify-center blocks pl-5'>
             <div className='flex flex-col gap-5 blocks'>
               <div className='flex flex-row gap-5 blocks items-center'>
                 <p className='text-white text-5xl blocks'><FaHistory /></p>
@@ -171,7 +171,7 @@ const Main_Phone = () => {
             </div>
           </div>
           {/*  Local Cuisine */}
-          <div className='flex flex-col gap-10 bg-blue-950 rounded-lg items-center justify-center blocks pl-5'>
+          <div className='flex flex-col gap-10 bg-blue-950 p-5 rounded-lg items-center justify-center blocks pl-5'>
             <div className='flex flex-col gap-5 blocks'>
               <div className='flex flex-row gap-5 blocks'>
                 <p className='text-white text-5xl blocks'><IoFastFood /></p>
@@ -187,7 +187,7 @@ const Main_Phone = () => {
             </div>
           </div>
           {/*  Population & Demographics */}
-          <div className='flex flex-col gap-10 bg-blue-950 rounded-lg items-center justify-center blocks pl-5'>
+          <div className='flex flex-col gap-10 bg-blue-950 p-5 rounded-lg items-center justify-center blocks pl-5'>
             <div className='flex flex-col gap-5 blocks'>
               <div className='flex flex-row gap-5 blocks items-center'>
                 <p className='text-white text-4xl blocks'><BsPeopleFill /></p>
@@ -197,7 +197,7 @@ const Main_Phone = () => {
             </div>
           </div>
           {/*  Governance */}
-          <div className='flex flex-col gap-10 bg-blue-950 rounded-lg items-center justify-center blocks pl-5'>
+          <div className='flex flex-col gap-10 bg-blue-950 p-5 rounded-lg items-center justify-center blocks pl-5'>
             <div className='flex flex-col gap-5 blocks'>
               <div className='flex flex-row gap-5 blocks items-center'>
                 <p className='text-white text-5xl blocks'><RiGovernmentFill /></p>
@@ -207,7 +207,7 @@ const Main_Phone = () => {
             </div>
           </div>
           {/*  Environment & Tourism */}
-          <div className='flex flex-col gap-10 bg-blue-950 rounded-lg items-center justify-center blocks pl-5'>
+          <div className='flex flex-col gap-10 bg-blue-950 p-5 rounded-lg items-center justify-center blocks pl-5'>
             <div className='flex flex-col gap-5 blocks'>
               <div className='flex flex-row gap-5 blocks items-center'>
                 <p className='text-white text-5xl blocks'><VscServerEnvironment /></p>
@@ -217,7 +217,7 @@ const Main_Phone = () => {
             </div>
           </div>
           {/*  Future Prospects */}
-          <div className='flex flex-col gap-10 bg-blue-950 rounded-lg items-center justify-center blocks pl-5'>
+          <div className='flex flex-col gap-10 bg-blue-950 p-5 rounded-lg items-center justify-center blocks pl-5'>
             <div className='flex flex-col gap-5 blocks'>
               <div className='flex flex-row gap-5 blocks items-center'>
                 <p className='text-white text-5xl blocks'><MdOutlineFindReplace /></p>
