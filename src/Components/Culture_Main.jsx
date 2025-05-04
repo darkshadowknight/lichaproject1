@@ -87,7 +87,7 @@ const Culture_Main = () => {
 
   return (
     <main className='justify-items-center overflow-auto scrollbar-hidden pt-2 flex flex-col text-white gap-[180px]'>
-      <div className='w-full h-full flex flex-col '>
+      <div className='w-full h-full flex flex-col pt-[20px] gap-[100px]'>
         <div className='flex flex-row items-center justify-center gap-5 '>
           <div className='bg-white h-[50px] w-[50px] flex justify-center items-center rounded-full'>
             {/* left arrow */}
@@ -109,8 +109,7 @@ const Culture_Main = () => {
             <BsChevronRight onClick={next} size={40} />
           </div>
         </div>
-      </div>
-      <div className='flex flex-col gap-[100px] w-full items-center pb-30 '>
+        <div className='flex flex-col gap-[100px] w-full items-center pb-30 '>
         <div
           style={{ display: index === 0 ? 'flex' : 'none' }}
           className='flex flex-row items-center justify-center gap-5'>
@@ -215,6 +214,7 @@ const Culture_Main = () => {
             </p>
           </div>
         </div>
+      </div>
       </div>
     </main>
   )

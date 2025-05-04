@@ -75,13 +75,13 @@ const Main_top = () => {
 
     return (
         <main className='justify-items-center overflow-auto scrollbar-hidden pt-2 flex flex-col gap-[180px]'>
-            <div className='w-full h-full flex flex-col'>
+            <div className='w-full h-full flex flex-col pt-[20px] gap-[100px]'>
                 <div className='flex flex-row items-center justify-center gap-5'>
                     <div className='bg-white h-[50px] w-[50px] flex justify-center items-center rounded-full'>
                         {/* left arrow */}
                         <BsChevronLeft onClick={prev} size={40} />
                     </div>
-                    <div className='flex flex-row items-center h-[750px] w-[1250px] pl-2 gap-5 rounded-lg bg-blue-900 appear-sum'>
+                    <div className='flex flex-row items-center p-5 gap-5 rounded-lg bg-blue-900 appear-sum'>
                         <img className='w-[600px] h-[690px] rounded-lg appear-sum' src={current.image}
                             alt={`Slide ${index}`} />
                         <div className='flex flex-col gap-1 appear-sum'>
@@ -100,8 +100,7 @@ const Main_top = () => {
                         <BsChevronRight onClick={next} size={40} />
                     </div>
                 </div>
-            </div>
-            <div className='flex flex-col gap-[100px] w-full items-center pb-30 '>
+                <div className='flex flex-col gap-[100px] w-full items-center pb-30 '>
                 {/* Overview */}
                 <div className='flex flex-col gap-10 bg-blue-900 rounded-lg h-[400px] w-[1100px] items-center justify-center blocks'>
                     <div className='flex flex-row gap-10 items-center blocks'>
@@ -223,6 +222,7 @@ const Main_top = () => {
                         <p className='text-white text-3xl blocks'>Cainta is expected to continue growing economically and demographically. With ongoing infrastructure improvements and the potential push for cityhood, it aims to attract more investments while preserving its rich cultural heritage.</p>
                     </div>
                 </div>
+            </div>
             </div>
         </main>
     )
